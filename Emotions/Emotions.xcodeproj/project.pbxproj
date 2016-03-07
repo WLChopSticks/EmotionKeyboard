@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2110E0CA1C87DEE000C4E912 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E0C91C87DEE000C4E912 /* main.m */; };
+		2110E0CD1C87DEE000C4E912 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E0CC1C87DEE000C4E912 /* AppDelegate.m */; };
+		2110E0D01C87DEE000C4E912 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E0CF1C87DEE000C4E912 /* ViewController.m */; };
+		2110E0D31C87DEE000C4E912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2110E0D11C87DEE000C4E912 /* Main.storyboard */; };
+		2110E0D51C87DEE000C4E912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2110E0D41C87DEE000C4E912 /* Assets.xcassets */; };
+		2110E0D81C87DEE000C4E912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2110E0D61C87DEE000C4E912 /* LaunchScreen.storyboard */; };
+		2110E0E31C87DEE000C4E912 /* EmotionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E0E21C87DEE000C4E912 /* EmotionsTests.m */; };
+		2110E0EE1C87DEE000C4E912 /* EmotionsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E0ED1C87DEE000C4E912 /* EmotionsUITests.m */; };
+		2110E1001C87DF7000C4E912 /* WLCEmotionKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E0FF1C87DF7000C4E912 /* WLCEmotionKeyboard.m */; };
+		2110E11C1C87E4B500C4E912 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2110E1021C87E4B500C4E912 /* Info.plist */; };
+		2110E11D1C87E4B500C4E912 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E1041C87E4B500C4E912 /* MASCompositeConstraint.m */; };
+		2110E11E1C87E4B500C4E912 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E1071C87E4B500C4E912 /* MASConstraint.m */; };
+		2110E11F1C87E4B500C4E912 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E1091C87E4B500C4E912 /* MASConstraintMaker.m */; };
+		2110E1201C87E4B500C4E912 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E10B1C87E4B500C4E912 /* MASLayoutConstraint.m */; };
+		2110E1211C87E4B500C4E912 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E10F1C87E4B500C4E912 /* MASViewAttribute.m */; };
+		2110E1221C87E4B500C4E912 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E1111C87E4B500C4E912 /* MASViewConstraint.m */; };
+		2110E1231C87E4B500C4E912 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E1131C87E4B500C4E912 /* NSArray+MASAdditions.m */; };
+		2110E1241C87E4B500C4E912 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E1161C87E4B500C4E912 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		2110E1251C87E4B500C4E912 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E1181C87E4B500C4E912 /* View+MASAdditions.m */; };
+		2110E1261C87E4B500C4E912 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E11B1C87E4B500C4E912 /* ViewController+MASAdditions.m */; };
+		2110E1291C87EE5E00C4E912 /* WLCEmotionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E1281C87EE5E00C4E912 /* WLCEmotionViewCell.m */; };
+		2110E12E1C8815E000C4E912 /* WLCEmotionLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E12D1C8815E000C4E912 /* WLCEmotionLoad.m */; };
+		2110E1311C881AAE00C4E912 /* WLCEmotionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E1301C881AAE00C4E912 /* WLCEmotionGroup.m */; };
+		2110E1341C8824A300C4E912 /* WLCEmotionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2110E1331C8824A300C4E912 /* WLCEmotionModel.m */; };
+		2110E1381C88352900C4E912 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2110E1371C88352900C4E912 /* Emoticons.bundle */; };
+		2153CA601C891FC300FBABC1 /* WLCEmotionTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2153CA5F1C891FC300FBABC1 /* WLCEmotionTipView.m */; };
+		215EAD7B1C8846B700EE1184 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 215EAD7A1C8846B700EE1184 /* NSString+Emoji.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2110E0DF1C87DEE000C4E912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2110E0BD1C87DEE000C4E912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2110E0C41C87DEE000C4E912;
+			remoteInfo = Emotions;
+		};
+		2110E0EA1C87DEE000C4E912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2110E0BD1C87DEE000C4E912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2110E0C41C87DEE000C4E912;
+			remoteInfo = Emotions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2110E0C51C87DEE000C4E912 /* Emotions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emotions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2110E0C91C87DEE000C4E912 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2110E0CB1C87DEE000C4E912 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2110E0CC1C87DEE000C4E912 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2110E0CE1C87DEE000C4E912 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2110E0CF1C87DEE000C4E912 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2110E0D21C87DEE000C4E912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2110E0D41C87DEE000C4E912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2110E0D71C87DEE000C4E912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2110E0D91C87DEE000C4E912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2110E0DE1C87DEE000C4E912 /* EmotionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2110E0E21C87DEE000C4E912 /* EmotionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmotionsTests.m; sourceTree = "<group>"; };
+		2110E0E41C87DEE000C4E912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2110E0E91C87DEE000C4E912 /* EmotionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2110E0ED1C87DEE000C4E912 /* EmotionsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmotionsUITests.m; sourceTree = "<group>"; };
+		2110E0EF1C87DEE000C4E912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2110E0FE1C87DF7000C4E912 /* WLCEmotionKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCEmotionKeyboard.h; sourceTree = "<group>"; };
+		2110E0FF1C87DF7000C4E912 /* WLCEmotionKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCEmotionKeyboard.m; sourceTree = "<group>"; };
+		2110E1021C87E4B500C4E912 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2110E1031C87E4B500C4E912 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		2110E1041C87E4B500C4E912 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		2110E1051C87E4B500C4E912 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		2110E1061C87E4B500C4E912 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		2110E1071C87E4B500C4E912 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		2110E1081C87E4B500C4E912 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		2110E1091C87E4B500C4E912 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		2110E10A1C87E4B500C4E912 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		2110E10B1C87E4B500C4E912 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		2110E10C1C87E4B500C4E912 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		2110E10D1C87E4B500C4E912 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		2110E10E1C87E4B500C4E912 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		2110E10F1C87E4B500C4E912 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		2110E1101C87E4B500C4E912 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		2110E1111C87E4B500C4E912 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		2110E1121C87E4B500C4E912 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		2110E1131C87E4B500C4E912 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		2110E1141C87E4B500C4E912 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2110E1151C87E4B500C4E912 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		2110E1161C87E4B500C4E912 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		2110E1171C87E4B500C4E912 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		2110E1181C87E4B500C4E912 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		2110E1191C87E4B500C4E912 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2110E11A1C87E4B500C4E912 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		2110E11B1C87E4B500C4E912 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		2110E1271C87EE5E00C4E912 /* WLCEmotionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCEmotionViewCell.h; sourceTree = "<group>"; };
+		2110E1281C87EE5E00C4E912 /* WLCEmotionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCEmotionViewCell.m; sourceTree = "<group>"; };
+		2110E12C1C8815E000C4E912 /* WLCEmotionLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCEmotionLoad.h; sourceTree = "<group>"; };
+		2110E12D1C8815E000C4E912 /* WLCEmotionLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCEmotionLoad.m; sourceTree = "<group>"; };
+		2110E12F1C881AAE00C4E912 /* WLCEmotionGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCEmotionGroup.h; sourceTree = "<group>"; };
+		2110E1301C881AAE00C4E912 /* WLCEmotionGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCEmotionGroup.m; sourceTree = "<group>"; };
+		2110E1321C8824A300C4E912 /* WLCEmotionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCEmotionModel.h; sourceTree = "<group>"; };
+		2110E1331C8824A300C4E912 /* WLCEmotionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCEmotionModel.m; sourceTree = "<group>"; };
+		2110E1371C88352900C4E912 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		2153CA5E1C891FC300FBABC1 /* WLCEmotionTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCEmotionTipView.h; sourceTree = "<group>"; };
+		2153CA5F1C891FC300FBABC1 /* WLCEmotionTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCEmotionTipView.m; sourceTree = "<group>"; };
+		215EAD791C8846B700EE1184 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		215EAD7A1C8846B700EE1184 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2110E0C21C87DEE000C4E912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2110E0DB1C87DEE000C4E912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2110E0E61C87DEE000C4E912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2110E0BC1C87DEE000C4E912 = {
+			isa = PBXGroup;
+			children = (
+				2110E0C71C87DEE000C4E912 /* Emotions */,
+				2110E0E11C87DEE000C4E912 /* EmotionsTests */,
+				2110E0EC1C87DEE000C4E912 /* EmotionsUITests */,
+				2110E0C61C87DEE000C4E912 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2110E0C61C87DEE000C4E912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2110E0C51C87DEE000C4E912 /* Emotions.app */,
+				2110E0DE1C87DEE000C4E912 /* EmotionsTests.xctest */,
+				2110E0E91C87DEE000C4E912 /* EmotionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2110E0C71C87DEE000C4E912 /* Emotions */ = {
+			isa = PBXGroup;
+			children = (
+				2110E0FD1C87DF3A00C4E912 /* Emotion */,
+				2110E0CB1C87DEE000C4E912 /* AppDelegate.h */,
+				2110E0CC1C87DEE000C4E912 /* AppDelegate.m */,
+				2110E0CE1C87DEE000C4E912 /* ViewController.h */,
+				2110E0CF1C87DEE000C4E912 /* ViewController.m */,
+				2110E0D11C87DEE000C4E912 /* Main.storyboard */,
+				2110E0D41C87DEE000C4E912 /* Assets.xcassets */,
+				2110E0D61C87DEE000C4E912 /* LaunchScreen.storyboard */,
+				2110E0D91C87DEE000C4E912 /* Info.plist */,
+				2110E0C81C87DEE000C4E912 /* Supporting Files */,
+			);
+			path = Emotions;
+			sourceTree = "<group>";
+		};
+		2110E0C81C87DEE000C4E912 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2110E1011C87E4B500C4E912 /* Masonry */,
+				2110E0C91C87DEE000C4E912 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2110E0E11C87DEE000C4E912 /* EmotionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2110E0E21C87DEE000C4E912 /* EmotionsTests.m */,
+				2110E0E41C87DEE000C4E912 /* Info.plist */,
+			);
+			path = EmotionsTests;
+			sourceTree = "<group>";
+		};
+		2110E0EC1C87DEE000C4E912 /* EmotionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2110E0ED1C87DEE000C4E912 /* EmotionsUITests.m */,
+				2110E0EF1C87DEE000C4E912 /* Info.plist */,
+			);
+			path = EmotionsUITests;
+			sourceTree = "<group>";
+		};
+		2110E0FD1C87DF3A00C4E912 /* Emotion */ = {
+			isa = PBXGroup;
+			children = (
+				215EAD781C8846B700EE1184 /* NSStringEmoji */,
+				2110E1371C88352900C4E912 /* Emoticons.bundle */,
+				2110E0FE1C87DF7000C4E912 /* WLCEmotionKeyboard.h */,
+				2110E0FF1C87DF7000C4E912 /* WLCEmotionKeyboard.m */,
+				2110E1271C87EE5E00C4E912 /* WLCEmotionViewCell.h */,
+				2110E1281C87EE5E00C4E912 /* WLCEmotionViewCell.m */,
+				2110E12C1C8815E000C4E912 /* WLCEmotionLoad.h */,
+				2110E12D1C8815E000C4E912 /* WLCEmotionLoad.m */,
+				2110E12F1C881AAE00C4E912 /* WLCEmotionGroup.h */,
+				2110E1301C881AAE00C4E912 /* WLCEmotionGroup.m */,
+				2110E1321C8824A300C4E912 /* WLCEmotionModel.h */,
+				2110E1331C8824A300C4E912 /* WLCEmotionModel.m */,
+				2153CA5E1C891FC300FBABC1 /* WLCEmotionTipView.h */,
+				2153CA5F1C891FC300FBABC1 /* WLCEmotionTipView.m */,
+			);
+			path = Emotion;
+			sourceTree = "<group>";
+		};
+		2110E1011C87E4B500C4E912 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				2110E1021C87E4B500C4E912 /* Info.plist */,
+				2110E1031C87E4B500C4E912 /* MASCompositeConstraint.h */,
+				2110E1041C87E4B500C4E912 /* MASCompositeConstraint.m */,
+				2110E1051C87E4B500C4E912 /* MASConstraint+Private.h */,
+				2110E1061C87E4B500C4E912 /* MASConstraint.h */,
+				2110E1071C87E4B500C4E912 /* MASConstraint.m */,
+				2110E1081C87E4B500C4E912 /* MASConstraintMaker.h */,
+				2110E1091C87E4B500C4E912 /* MASConstraintMaker.m */,
+				2110E10A1C87E4B500C4E912 /* MASLayoutConstraint.h */,
+				2110E10B1C87E4B500C4E912 /* MASLayoutConstraint.m */,
+				2110E10C1C87E4B500C4E912 /* Masonry.h */,
+				2110E10D1C87E4B500C4E912 /* MASUtilities.h */,
+				2110E10E1C87E4B500C4E912 /* MASViewAttribute.h */,
+				2110E10F1C87E4B500C4E912 /* MASViewAttribute.m */,
+				2110E1101C87E4B500C4E912 /* MASViewConstraint.h */,
+				2110E1111C87E4B500C4E912 /* MASViewConstraint.m */,
+				2110E1121C87E4B500C4E912 /* NSArray+MASAdditions.h */,
+				2110E1131C87E4B500C4E912 /* NSArray+MASAdditions.m */,
+				2110E1141C87E4B500C4E912 /* NSArray+MASShorthandAdditions.h */,
+				2110E1151C87E4B500C4E912 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				2110E1161C87E4B500C4E912 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				2110E1171C87E4B500C4E912 /* View+MASAdditions.h */,
+				2110E1181C87E4B500C4E912 /* View+MASAdditions.m */,
+				2110E1191C87E4B500C4E912 /* View+MASShorthandAdditions.h */,
+				2110E11A1C87E4B500C4E912 /* ViewController+MASAdditions.h */,
+				2110E11B1C87E4B500C4E912 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		215EAD781C8846B700EE1184 /* NSStringEmoji */ = {
+			isa = PBXGroup;
+			children = (
+				215EAD791C8846B700EE1184 /* NSString+Emoji.h */,
+				215EAD7A1C8846B700EE1184 /* NSString+Emoji.m */,
+			);
+			path = NSStringEmoji;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2110E0C41C87DEE000C4E912 /* Emotions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2110E0F21C87DEE000C4E912 /* Build configuration list for PBXNativeTarget "Emotions" */;
+			buildPhases = (
+				2110E0C11C87DEE000C4E912 /* Sources */,
+				2110E0C21C87DEE000C4E912 /* Frameworks */,
+				2110E0C31C87DEE000C4E912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emotions;
+			productName = Emotions;
+			productReference = 2110E0C51C87DEE000C4E912 /* Emotions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2110E0DD1C87DEE000C4E912 /* EmotionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2110E0F51C87DEE000C4E912 /* Build configuration list for PBXNativeTarget "EmotionsTests" */;
+			buildPhases = (
+				2110E0DA1C87DEE000C4E912 /* Sources */,
+				2110E0DB1C87DEE000C4E912 /* Frameworks */,
+				2110E0DC1C87DEE000C4E912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2110E0E01C87DEE000C4E912 /* PBXTargetDependency */,
+			);
+			name = EmotionsTests;
+			productName = EmotionsTests;
+			productReference = 2110E0DE1C87DEE000C4E912 /* EmotionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2110E0E81C87DEE000C4E912 /* EmotionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2110E0F81C87DEE000C4E912 /* Build configuration list for PBXNativeTarget "EmotionsUITests" */;
+			buildPhases = (
+				2110E0E51C87DEE000C4E912 /* Sources */,
+				2110E0E61C87DEE000C4E912 /* Frameworks */,
+				2110E0E71C87DEE000C4E912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2110E0EB1C87DEE000C4E912 /* PBXTargetDependency */,
+			);
+			name = EmotionsUITests;
+			productName = EmotionsUITests;
+			productReference = 2110E0E91C87DEE000C4E912 /* EmotionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2110E0BD1C87DEE000C4E912 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WLC;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = WLChopSticks;
+				TargetAttributes = {
+					2110E0C41C87DEE000C4E912 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = FL27D9E52C;
+					};
+					2110E0DD1C87DEE000C4E912 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = FL27D9E52C;
+						TestTargetID = 2110E0C41C87DEE000C4E912;
+					};
+					2110E0E81C87DEE000C4E912 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = FL27D9E52C;
+						TestTargetID = 2110E0C41C87DEE000C4E912;
+					};
+				};
+			};
+			buildConfigurationList = 2110E0C01C87DEE000C4E912 /* Build configuration list for PBXProject "Emotions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2110E0BC1C87DEE000C4E912;
+			productRefGroup = 2110E0C61C87DEE000C4E912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2110E0C41C87DEE000C4E912 /* Emotions */,
+				2110E0DD1C87DEE000C4E912 /* EmotionsTests */,
+				2110E0E81C87DEE000C4E912 /* EmotionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2110E0C31C87DEE000C4E912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2110E11C1C87E4B500C4E912 /* Info.plist in Resources */,
+				2110E0D81C87DEE000C4E912 /* LaunchScreen.storyboard in Resources */,
+				2110E0D51C87DEE000C4E912 /* Assets.xcassets in Resources */,
+				2110E0D31C87DEE000C4E912 /* Main.storyboard in Resources */,
+				2110E1381C88352900C4E912 /* Emoticons.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2110E0DC1C87DEE000C4E912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2110E0E71C87DEE000C4E912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2110E0C11C87DEE000C4E912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2110E11F1C87E4B500C4E912 /* MASConstraintMaker.m in Sources */,
+				2110E0D01C87DEE000C4E912 /* ViewController.m in Sources */,
+				2110E1001C87DF7000C4E912 /* WLCEmotionKeyboard.m in Sources */,
+				2110E11E1C87E4B500C4E912 /* MASConstraint.m in Sources */,
+				2110E1261C87E4B500C4E912 /* ViewController+MASAdditions.m in Sources */,
+				2110E1201C87E4B500C4E912 /* MASLayoutConstraint.m in Sources */,
+				2110E1231C87E4B500C4E912 /* NSArray+MASAdditions.m in Sources */,
+				2110E1221C87E4B500C4E912 /* MASViewConstraint.m in Sources */,
+				2110E1211C87E4B500C4E912 /* MASViewAttribute.m in Sources */,
+				2110E1251C87E4B500C4E912 /* View+MASAdditions.m in Sources */,
+				2110E1341C8824A300C4E912 /* WLCEmotionModel.m in Sources */,
+				2110E0CD1C87DEE000C4E912 /* AppDelegate.m in Sources */,
+				2110E1311C881AAE00C4E912 /* WLCEmotionGroup.m in Sources */,
+				2110E0CA1C87DEE000C4E912 /* main.m in Sources */,
+				2110E12E1C8815E000C4E912 /* WLCEmotionLoad.m in Sources */,
+				2153CA601C891FC300FBABC1 /* WLCEmotionTipView.m in Sources */,
+				2110E1291C87EE5E00C4E912 /* WLCEmotionViewCell.m in Sources */,
+				2110E11D1C87E4B500C4E912 /* MASCompositeConstraint.m in Sources */,
+				215EAD7B1C8846B700EE1184 /* NSString+Emoji.m in Sources */,
+				2110E1241C87E4B500C4E912 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2110E0DA1C87DEE000C4E912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2110E0E31C87DEE000C4E912 /* EmotionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2110E0E51C87DEE000C4E912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2110E0EE1C87DEE000C4E912 /* EmotionsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2110E0E01C87DEE000C4E912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2110E0C41C87DEE000C4E912 /* Emotions */;
+			targetProxy = 2110E0DF1C87DEE000C4E912 /* PBXContainerItemProxy */;
+		};
+		2110E0EB1C87DEE000C4E912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2110E0C41C87DEE000C4E912 /* Emotions */;
+			targetProxy = 2110E0EA1C87DEE000C4E912 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2110E0D11C87DEE000C4E912 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2110E0D21C87DEE000C4E912 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2110E0D61C87DEE000C4E912 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2110E0D71C87DEE000C4E912 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2110E0F01C87DEE000C4E912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2110E0F11C87DEE000C4E912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2110E0F31C87DEE000C4E912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Emotions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WLChopSticks.Emotions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2110E0F41C87DEE000C4E912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Emotions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WLChopSticks.Emotions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2110E0F61C87DEE000C4E912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmotionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WLChopSticks.EmotionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emotions.app/Emotions";
+			};
+			name = Debug;
+		};
+		2110E0F71C87DEE000C4E912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmotionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WLChopSticks.EmotionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emotions.app/Emotions";
+			};
+			name = Release;
+		};
+		2110E0F91C87DEE000C4E912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EmotionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WLChopSticks.EmotionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Emotions;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2110E0FA1C87DEE000C4E912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EmotionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WLChopSticks.EmotionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Emotions;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2110E0C01C87DEE000C4E912 /* Build configuration list for PBXProject "Emotions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2110E0F01C87DEE000C4E912 /* Debug */,
+				2110E0F11C87DEE000C4E912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2110E0F21C87DEE000C4E912 /* Build configuration list for PBXNativeTarget "Emotions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2110E0F31C87DEE000C4E912 /* Debug */,
+				2110E0F41C87DEE000C4E912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2110E0F51C87DEE000C4E912 /* Build configuration list for PBXNativeTarget "EmotionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2110E0F61C87DEE000C4E912 /* Debug */,
+				2110E0F71C87DEE000C4E912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2110E0F81C87DEE000C4E912 /* Build configuration list for PBXNativeTarget "EmotionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2110E0F91C87DEE000C4E912 /* Debug */,
+				2110E0FA1C87DEE000C4E912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2110E0BD1C87DEE000C4E912 /* Project object */;
+}
